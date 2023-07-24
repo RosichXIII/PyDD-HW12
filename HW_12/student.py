@@ -46,7 +46,3 @@ class Student:
     def averages_str(self) -> str:
         return '\n'.join([f'{i_key + ":":_<30}{i_val:<10}'
                           for i_key, i_val in self.get_test_scores_average().items()])
-
-
-if __name__ == '__main__':
-    print("Not for separate use")
